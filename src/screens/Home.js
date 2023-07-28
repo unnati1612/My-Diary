@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <div className="container  ">
-      <h2 className="text-center my-3 ">My Diary</h2>
+      <h2 className="text-center my-3 ">MY DIARY!</h2>
       <div className="row mt-5">
         <div className=" col-4 ">
         <Link to="/job" style={{ textDecoration:"none"}}>
           <div
-            className="col-12 border d-flex justify-content-center align-items-center "
+            className="col-12 box border d-flex justify-content-center align-items-center "
             style={{
               height: "300px",
               background:
@@ -28,7 +28,7 @@ const Home = () => {
         <Link to="/contact"  style={{ textDecoration:"none"}}>
 
           <div
-            className="col-12 border d-flex justify-content-center align-items-center"
+            className="col-12 box border d-flex justify-content-center align-items-center"
             style={{
               height: "300px",
               background:
@@ -47,7 +47,7 @@ const Home = () => {
         <Link to="/todo"  style={{ textDecoration:"none"}}>
 
           <div
-            className="col-12 border d-flex justify-content-center align-items-center"
+            className="col-12 box border d-flex justify-content-center align-items-center"
             style={{
               height: "300px",
               background:
